@@ -1,1 +1,9 @@
+This directory contains the various notebooks that were usd to construct the NN model.
 
+Here is a brief outlook of the contents of the notebook:
+ - NN_training : notebook containing all the steps to train one NN, using the original (u,v) Cartesian parameterisation
+ - NN_training_other_parameterisation : notebook containing all the steps to train one NN, using the alternate (mag,dir) polar parameterisation
+ - Comparing_NN_models : a comparison of various NN architecture/parameterisation performances
+ - Predictions_test_set : computes the predicted output for the test set
+ 
+Note that the original data are required to run all the notebooks ! Also, some of the file's paths may need to be adapted.
