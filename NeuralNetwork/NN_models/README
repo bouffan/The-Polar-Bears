@@ -1,1 +1,6 @@
+The files contained in the various directories correspond to various NN architectures that were tested with the two parameterisation.
+All architectures in the subdirectories were trained for 25 epochs. 
 
+The final model selected was model 4, with the layer structure,
+      (1024,512,256,128,64,32,16,2), 
+  using the original parameterisation (in cartesian coordinate). This model was retrained for an additionnal 50 epochs.
